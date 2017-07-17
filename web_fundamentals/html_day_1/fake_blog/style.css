@@ -1,0 +1,9 @@
+table, th, td {
+	border: solid black;
+	border-spacing: 5px;
+}
+
+img {
+	width: 25%;
+	height: 25%;
+}
