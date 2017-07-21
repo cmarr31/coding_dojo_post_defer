@@ -75,8 +75,85 @@ body {
 	padding-left: 100px;
 }
 
+#ad {
+	display: inline-block;
+	width: 100%;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	color: whitesmoke;
+	margin-left: 31px;
+	background: url("black_stripe_background.jpg"); 
+}
 
+#ad h2 {
+	display: block;
+	font-size: xx-large;
+}
 
+#ad p {
+	display: block;
+	font-size: x-large;
+	width: 75%;
+}
 
+#ad input {
+	display: block;
+	margin-left: 80%;
+	margin-top: -100px;
+	padding: 20px;
+	font-size: large;
+	background-color: #e65c00;
+	border-radius: 4px;
+	border-width: 1px;
+	color: whitesmoke;
+}
 
+#shortcode_projects {
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	margin-top: 15px;
+}
 
+#shortcode_projects h2 {
+	display: block;
+	color: whitesmoke;
+}
+
+.shortcode_jibberish {
+	display: inline-block;
+	color: whitesmoke;
+}
+
+.shortcode_jibberish h3 {
+	display: block;
+	color: whitesmoke;
+	width: 150px;
+}
+
+.shortcode_jibberish p {
+	display: inline-block;
+	color: whitesmoke;
+	width: 150px;
+	height: 100px;
+}
+
+.portfolio_pics {
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+	
+}
+
+#summit {
+	display: block;
+	margin-left: 70%;
+	padding: 10px;
+}
+
+#projects_href {
+	display: block;
+	margin-left: 70%;
+	padding-left: 85px;
+	margin-top: 10px;
+}
