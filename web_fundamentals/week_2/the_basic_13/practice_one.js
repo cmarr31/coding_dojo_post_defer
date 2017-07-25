@@ -48,6 +48,31 @@ function greaterThanY(arr1, Y){
 	console.log(greater.length);
 }
 
+// 6)
+function maxMinAverage(arr){
+	max = 0;
+	min = 0;
+	avg = 0;
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] > arr[i+1]){
+			max = arr[i];
+			return max;
+		}
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] < arr[i+1]){
+			min = arr[i];
+			return min;
+		}
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] > arr[i+1]){
+			avg += arr[i];
+			avg /= arr.length;
+			return avg;
+		}
+	}
+	console.log(max, min, avg);
+}
+
 
 
 
