@@ -38,10 +38,10 @@ function arrayOdds(){
 
 // 5)
 function greaterThanY(arr1, Y){
-	greater = [];
+	var greater = [];
 	for (var i = 0; i < arr1.length; i++) {
-		if (i > Y){
-			i + greater;
+		if (arr[i] > Y){
+			arr[i] += greater;
 		}
 	}	
 	console.log(greater);
@@ -50,9 +50,9 @@ function greaterThanY(arr1, Y){
 
 // 6)
 function maxMinAverage(arr){
-	max = 0;
-	min = 0;
-	avg = 0;
+	var max = 0;
+	var min = 0;
+	var avg = 0;
 	for (var i = 0; i < arr.length; i++) {
 		if(arr[i] > arr[i+1]){
 			max = arr[i];
@@ -72,6 +72,67 @@ function maxMinAverage(arr){
 	}
 	console.log(max, min, avg);
 }
+
+// 7)
+function swapOutNegatives(arr){
+	var dojo = "Dojo";
+	for (var i = 0; i < arr.length; i++) {
+		if (arr[i] < 0){
+			arr[i] = dojo;
+		}
+	}	
+}
+
+// 8)
+function printOdds(){
+	for (var i = 1; i <= 255; i+=2) {
+		console.log(i);
+	}	
+}
+
+// 9)
+function iteratePrint(arr){
+	for (var i = 0; i < arr.length; i++) {
+		console.log(arr[i]);
+	}	
+}
+
+// 10)
+function printAverage(arr){
+	var avg = 0;
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] > arr[i+1]){
+			avg += arr[i];
+			avg /= arr.length;
+			return avg;
+		}
+	}
+}
+
+// 11)
+function squareValues(arr){
+	for (var i = 0; i < arr.length; i++) {
+		arr[i] = arr[i] * arr[i];
+	}	
+}
+
+// 12)
+function zeroOutNegatives(arr){
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] < 0){
+			arr[i] = 0;
+		}
+	}	
+	return arr;
+}
+
+// 13)
+function shiftValues(arr){
+	for (var i = arr.length-1; i >= 0; i--) {
+		arr[i-1] = arr[i];
+	}	
+}
+
 
 
 

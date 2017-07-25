@@ -16,14 +16,14 @@
 6) Max, Min, Average
 	Given an array, print the max, min, and average values for that array.
 
-7) Swap Swtring For Array Negative Values
+7) Swap String For Array Negative Values
 	Given an array of numbers, replace any negative values with the string 'Dojo'.
 
 8) Print Odds 1-255
 	Print all odd integers from 1 to 255.
 
 9) Iterate and Print Array
-	Iterate througha a given array, printing each value.
+	Iterate through a given array, printing each value.
 
 10) Get and Print Average
 	Analyze an array's values and print the average.
