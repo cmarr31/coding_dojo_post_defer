@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disappearing Ninja</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+	<body>
+		<div id="top_row">
+			<img id="geometric_symmetry1" src="sacred_geometry.jpg">
+			<img id="geometric_symmetry2" src="sacred_geometry.jpg">
+			<img id="geometric_symmetry3" src="sacred_geometry.jpg">
+			<img id="geometric_symmetry4" src="sacred_geometry.jpg">
+		</div>
+		<p></p>
+		<div id="bottom_row">
+			<img id="geometric_symmetry5" src="sacred_geometry.jpg">
+			<img id="geometric_symmetry6" src="sacred_geometry.jpg">
+			<img id="geometric_symmetry7" src="sacred_geometry.jpg">
+			<img id="geometric_symmetry8" src="sacred_geometry.jpg">
+		</div>
+		<input id="refresh_button" type="button" value="Restore" onClick="window.location.reload()">
+
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$( "#geometric_symmetry1" ).click(function() {
+					$( this ).hide();
+				});
+				$( "#geometric_symmetry2" ).click(function() {
+					$( this ).hide();
+				});
+				$( "#geometric_symmetry3" ).click(function() {
+					$( this ).hide();
+				});
+				$( "#geometric_symmetry4" ).click(function() {
+					$( this ).hide();
+				});
+				$( "#geometric_symmetry5" ).click(function() {
+					$( this ).hide();
+				});
+				$( "#geometric_symmetry6" ).click(function() {
+					$( this ).hide();
+				});
+				$( "#geometric_symmetry7" ).click(function() {
+					$( this ).hide();
+				});
+				$( "#geometric_symmetry8" ).click(function() {
+					$( this ).hide();
+				});
+			});
+
+		</script>
+	</body>
+</html>
