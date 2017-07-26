@@ -1,55 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ninja to Cat</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 </head>
 <body>
-	<div>
-		<img id="1" src="cat0.png"  data-alt-src='ninja0.png' />
-		<img id="2" src="cat1.png"  data-alt-src='ninja1.png' />
-		<img id="3" src="cat2.png"  data-alt-src='ninja2.png' />
-		<img id="4" src="cat3.png"  data-alt-src='ninja3.png' />
-		<img id="5" src="cat4.png"  data-alt-src='ninja4.png' />
-		<img id="6" src="ninja0.png"  data-alt-src='cat0.png' />
-		<img id="7" src="ninja1.png"  data-alt-src='cat1.png' />
-		<img id="8" src="ninja2.png"  data-alt-src='cat2.png' />
-		<img id="9" src="ninja3.png"  data-alt-src='cat3.png' />
-		<img id="10" src="ninja4.png"  data-alt-src='cat4.png' />
-	</div>
+	<h2>Cat to Ninja</h2>
 
+	<img src="ninja_cat_images/cat0.png" alt="Ninja to Cat" data-alt-src="ninja_cat_images/ninja0.png">
+	<img src="ninja_cat_images/cat1.png" alt="Ninja to Cat" data-alt-src="ninja_cat_images/ninja1.png">
+	<img src="ninja_cat_images/cat2.png" alt="Ninja to Cat" data-alt-src="ninja_cat_images/ninja2.png">
+	<img src="ninja_cat_images/cat3.png" alt="Ninja to Cat" data-alt-src="ninja_cat_images/ninja3.png">
+	<img src="ninja_cat_images/cat4.png" alt="Ninja to Cat" data-alt-src="ninja_cat_images/ninja4.png">
 
-	<script type="text/javascript">
+	<script>
+		"use strict";
 		$(document).ready(function() {
-				$( "#1" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#2" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#3" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#4" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#5" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#6" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#7" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#7" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#7" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});
-				$( "#7" ).click(function() {
-					$( this ).attr(data-alt-src);
-				});		
+			console.log("Ninja to Cat");
+			$("img").click(function() {	
+				var src = $( this ).attr("src");
+				var data = $( this ).attr("data-alt-src");
+				$( this ).attr("src",data);
+				$( this ).attr("data-alt-src",src);
+				}
+			);
 		});
 	</script>
 </body>
