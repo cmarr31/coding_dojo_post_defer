@@ -2,10 +2,7 @@ body {
 	background-color: #847F73;
 }
 
-#contact_info {
+div {
 	display: inline-block;
 }
 
-#new_user_form {
-
-}

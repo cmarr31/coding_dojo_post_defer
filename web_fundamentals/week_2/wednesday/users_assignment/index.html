@@ -8,39 +8,36 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 </head>
 <body>
-	<div id="contact_info">	
-		<table style="width:100%">
+	<div>	
+		<table id="contact_book" style="width:100%">
 		  <tr>
 		    <th>First Name</th>
 		    <th>Last Name</th> 
 		    <th>Email Address</th>
 		    <th>Contact #</th>
 		  </tr>
-		  <tr>
-		    <td></td>
-		    <td></td> 
-		    <td></td>
-		    <td></td>
-		  </tr>
 		</table>
 	</div>
 	<br>
 
-	<div id="new_user_form">
+	<div>
 		<h1>Add User</h1>
 		<form>
-			<p>First Name: </p><input type="text" name="first_name" value="First Name">
-			<p>Last Name: </p><input type="text" name="last_name" value="Last Name">
-			<p>Email Address: </p><input type="text" name="email" value="Email Address">
-			<p>Contact No.: </p><input type="text" name="contact_num" value="Phone #">
+			<p>First Name: </p><input type="text" id="first_name" name="first_name" value="First Name">
+			<p>Last Name: </p><input type="text" id="last_name" name="last_name" value="Last Name">
+			<p>Email Address: </p><input type="text" id="email" name="email" value="Email Address">
+			<p>Contact No.: </p><input type="text" id="contact_num" name="contact_num" value="Phone #">
 			<br>
-			<input type="submit" name="submit" value="Add User">
+			<input id="submit" type="submit" name="submit" value="Add User">
 		</form>
 	</div>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
-
+			$("form").on('click', 'submit', function(){
+				var new_row = "<tr> <br> <td></td> <br> <td> </td> <br> <td></td> <br> <td></td> <br> </tr>";
+				$("contact_book").append(new_row);
+			});		
 		});
 	</script>
 
