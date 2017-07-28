@@ -31,7 +31,3 @@ function isPermutation(str1,str2){
 isPermutation("cost","scot");
 isPermutation("cost","cuts");
 
-/* ****** <(@_@)> *********
-------> Hello love <3 <-------
-^^^^^^^^^^^^^^^^^^^^^^^^^ 
-!@%@#$#--__CASEY!!!__--%@#$$# */
