@@ -8,7 +8,7 @@ def find_characters(arr, character):
 			pass
 		else:
 			new_arr.append(count)
-			print new_arr
+			return new_arr
 
 
 find_characters(a, char)

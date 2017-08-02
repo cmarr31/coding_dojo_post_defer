@@ -3,7 +3,8 @@ def multiples():
 		if (count % 2 != 0):
 			print count
 		else:
-			pass
+			passdef find_characters(arr, character):
+
 multiples()
 
 def multiples_five():
