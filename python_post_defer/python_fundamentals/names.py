@@ -28,8 +28,33 @@ students = {
 # names(students)
 
 # counter = 0
-def names(dictionary):
-	print dictionary[0]['first_name'] + dictionary[0]['last_name']
-	print dictionary[1]['first_name'] + dictionary[1]['last_name']
-	print dictionary[2]['first_name'] + dictionary[2]['last_name']
-names(students)
+# 	name1 = dictionary[0]['first_name'] + " " + dictionary[0]['last_name']
+# 	name2 = dictionary[1]['first_name'] + " " + dictionary[1]['last_name']
+# 	name3 = dictionary[2]['first_name'] + " " + dictionary[2]['last_name']
+# 	print name1
+# 	print name2
+# 	print name3
+# names(students)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

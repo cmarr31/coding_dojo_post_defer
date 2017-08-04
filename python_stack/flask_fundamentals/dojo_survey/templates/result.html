@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dojo Survey Index</title>
+</head>
+<body>
+
+	<div>
+		<h3 style="text-decoration: underline;">Submitted Info</h3>
+		<p>Your Name: </p>
+			<p>{{session['name']}}</p>
+		<p>Dojo Location: </p>
+			<p>{{session['location']}}</p>
+		<p>Favorite Language: </p>
+			<p>{{session['language']}}</p>
+		<p>Comment: </p>
+			<p>{{session['comment']}}</p>
+	
+		<form action="/">
+			<input class="button" type="submit" value="Back">
+		</form>
+	</div>
+</body>
+</html>
