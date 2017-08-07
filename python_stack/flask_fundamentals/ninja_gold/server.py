@@ -2,11 +2,12 @@ from flask import Flask, render_template, redirect, request, session
 
 app = Flask(__name__)
 app.secret_key = 'ninjagold'
+ninjasgold = 0
 
 
 @app.route('/')
 def index():
-	if 'gold' is not in session:
+	if ('gold' not in session):
 		session['gold'] = 0
 	else:
 		session['gold'] +=1
